@@ -20,19 +20,19 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <HomePage/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import HomePage from './views/HomePage'
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld
+    HomePage
   },
 
   data: () => ({

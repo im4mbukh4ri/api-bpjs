@@ -18,7 +18,8 @@
             ></v-text-field>
           </v-col>
           <v-col cols="12" md="6">
-            <input type="file">
+            <v-img src=""></v-img>
+            <input type="file" @change="selectImage">
           </v-col>
           <v-col cols="12" md="6">
             <v-text-field
@@ -162,8 +163,7 @@ export default {
     }, {
       id: 2,
       value: 'Inggris'
-    }]
-    // checkbox: false
+    }]// checkbox: false
   }),
 
   computed: {
